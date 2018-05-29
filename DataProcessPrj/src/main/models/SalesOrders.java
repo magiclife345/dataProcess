@@ -69,6 +69,7 @@ public class SalesOrders {
 	 * 发送地区
 	 */
 	private static String deliArea;
+
 	
 	/**
 	 * 发送地址

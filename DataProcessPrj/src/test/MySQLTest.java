@@ -23,6 +23,7 @@ public class MySQLTest {
             // 注册 JDBC 驱动
             Class.forName(JDBC_DRIVER);
         
+            
             // 打开链接
             System.out.println("连接数据库...");
             conn = DriverManager.getConnection(DB_URL,USER,PASS);
