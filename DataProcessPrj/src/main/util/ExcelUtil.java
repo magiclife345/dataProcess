@@ -94,7 +94,7 @@ public class ExcelUtil {
 						} else {
 							value = sdf.format(HSSFDateUtil.getJavaDate(cell.getNumericCellValue()));
 						}
-						System.out.println(i + "行" + j + " 列 is Number type ; DateFormt:" + value.toString());
+						System.out.println(i + "行" + j + " 列 is Number type ; DecimalFormat:" + value.toString());
 						break;
 					case XSSFCell.CELL_TYPE_BOOLEAN:
 						System.out.println(i + "行" + j + " 列 is Boolean type");
@@ -162,7 +162,7 @@ public class ExcelUtil {
 						} else {
 							value = sdf.format(HSSFDateUtil.getJavaDate(cell.getNumericCellValue()));
 						}
-						System.out.println(i + "行" + j + " 列 is Number type ; DateFormt:" + value.toString());
+						System.out.println(i + "行" + j + " 列 is Number type ; DecimalFormat:" + value.toString());
 						break;
 					case XSSFCell.CELL_TYPE_BOOLEAN:
 						System.out.println(i + "行" + j + " 列 is Boolean type");

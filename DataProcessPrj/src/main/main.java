@@ -7,7 +7,7 @@ package main;
  * @author magic
  *
  */
-public class DataProcess {
+public class main {
 
 	/**
 	 * @param args
