@@ -16,6 +16,99 @@ public class SalesOrder {
 	 * 产品ID
 	 */
 	private String productId;
+	
+
+	/**
+	 * 平台
+	 */
+	private String platform;
+
+	/**
+	 * 活动ID
+	 */
+	private String campaignId;
+
+	/**
+	 * 活动批次
+	 */
+	private String campaignBatch;
+
+	/**
+	 * 平台销售单号
+	 */
+	private String salesOrderId;
+
+	/**
+	 * 快递公司
+	 */
+	private String logisticsCompany;
+
+	/**
+	 * 快递编号
+	 */
+	private String logisticsNum;
+
+	/**
+	 * sku
+	 */
+	private String sku;
+
+	/**
+	 * 供应商
+	 */
+	private String merchantCd;
+
+	/**
+	 * 客户姓名
+	 */
+	private String customerName;
+
+	/**
+	 * 发送省份
+	 */
+	private String deliProvince;
+
+	/**
+	 * 发送县级/市级
+	 */
+	private String deliCity;
+
+	/**
+	 * 发送地区
+	 */
+	private String deliArea;
+
+	/**
+	 * 发送地址
+	 */
+	private String deliAddress;
+
+	/**
+	 * 联系电话
+	 */
+	private String contactNumber;
+
+	/**
+	 * 活动名称
+	 */
+	private String salesTitle;
+
+	/**
+	 * 销售数量
+	 */
+	private int quantity;
+
+	/**
+	 * 单价
+	 */
+	private double unitPrice;
+
+	/**
+	 * 销售日期
+	 */
+	private Date salesDate;
+
+
 
 	public int getId() {
 		return id;
@@ -176,95 +269,5 @@ public class SalesOrder {
 	public void setSalesDate(Date salesDate) {
 		this.salesDate = salesDate;
 	}
-
-	/**
-	 * 平台
-	 */
-	private String platform;
-
-	/**
-	 * 活动ID
-	 */
-	private String campaignId;
-
-	/**
-	 * 活动批次
-	 */
-	private String campaignBatch;
-
-	/**
-	 * 平台销售单号
-	 */
-	private String salesOrderId;
-
-	/**
-	 * 快递公司
-	 */
-	private String logisticsCompany;
-
-	/**
-	 * 快递编号
-	 */
-	private String logisticsNum;
-
-	/**
-	 * sku
-	 */
-	private String sku;
-
-	/**
-	 * 供应商
-	 */
-	private String merchantCd;
-
-	/**
-	 * 客户姓名
-	 */
-	private String customerName;
-
-	/**
-	 * 发送省份
-	 */
-	private String deliProvince;
-
-	/**
-	 * 发送县级/市级
-	 */
-	private String deliCity;
-
-	/**
-	 * 发送地区
-	 */
-	private String deliArea;
-
-	/**
-	 * 发送地址
-	 */
-	private String deliAddress;
-
-	/**
-	 * 联系电话
-	 */
-	private String contactNumber;
-
-	/**
-	 * 活动名称
-	 */
-	private String salesTitle;
-
-	/**
-	 * 销售数量
-	 */
-	private int quantity;
-
-	/**
-	 * 单价
-	 */
-	private double unitPrice;
-
-	/**
-	 * 销售日期
-	 */
-	private Date salesDate;
 
 }
