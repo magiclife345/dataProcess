@@ -14,11 +14,12 @@ public class DBUtil {
 
 	// JDBC 驱动名及数据库 URL
 	static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-	static final String DB_URL = "";
+	static final String DB_URL = "jdbc:mysql://sh-cdb-4nmka6ff.sql.tencentcdb.com:63152/mydb";
+
 
 	// 数据库的用户名与密码，需要根据自己的设置
-	static final String USER = "";
-	static final String PASSWORD = "";
+	static final String USER = "root";
+	static final String PASSWORD = "Tata@123";
 
 	public static Connection openConnection() {
 		Connection conn = null;
