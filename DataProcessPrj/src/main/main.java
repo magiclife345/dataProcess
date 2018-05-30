@@ -13,7 +13,7 @@ import main.service.YouzanDataProcess;
  */
 public class main {
 
-	private final static String EXCEL_FILE_PATH = "D:\\其他\\西域牛牛\\西域牛牛0529.xlsx";
+	private final static String EXCEL_FILE_PATH = "D:\\其他\\西域牛牛\\西域牛牛0530.xlsx";
 	
 	/**
 	 * @param args

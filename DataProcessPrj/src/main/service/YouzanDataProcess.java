@@ -61,7 +61,7 @@ public class YouzanDataProcess {
 		System.out.println("5. Before insert data");
 		SalesOrderDAO soDao = new SalesOrderDAO();
 		soDao.insertSalesOrderList(soList);
-		System.out.println("6. After insert data");
+		System.out.println("6. Done with success");
 		
 	}
 
